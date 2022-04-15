@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from '../../Secondary Components/Header/Header';
-import FoodMenu from './../../Secondary Components/FoodMenu/FoodMenu'
+import FoodMenu from '../../Secondary Components/FoodMenu/FoodMenu';
+
 
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
-            <FoodMenu></FoodMenu>
-        </div>
+      <div>
+        <Header></Header>
+        <FoodMenu></FoodMenu>
+      </div>
     );
 };
 

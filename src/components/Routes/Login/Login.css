@@ -1,0 +1,5 @@
+.login-bg{
+    background-image: url('./../../../images/bannerbackground.png');
+    background-position: left;
+    height: 85vh;
+}
