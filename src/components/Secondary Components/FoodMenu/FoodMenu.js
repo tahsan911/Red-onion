@@ -1,27 +1,21 @@
-import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
-import Breakfast from "../Breakfast/Breakfast";
-import Dinners from "../Dinners/Dinners";
-import Lunch from "../Lunch/Lunch";
+import React, { useEffect, useState } from "react";
+import Meal from "../Meal/Meal";
+import "./FoodMenu.css";
 
 const FoodMenu = () => {
+  const [meals, setMeals] = useState([]);
+
+  useEffect(() => {
+    fetch("meal.json")
+      .then((res) => res.json())
+      .then((data) => setMeals(data));
+  }, []);
   return (
-    <div className="container ">
-      <div className="text-center overflow-hidden">
-        <Routes>
-          <Route path="/Breakfast" element={<Breakfast></Breakfast>} />
-          <Route path="/Lunch" element={<Lunch></Lunch>} />
-          <Route path="/Dinner" element={<Dinners></Dinners>} />
-        </Routes>
-        <Link className="link my-2" to="/Breakfast">
-          Breakfast
-        </Link>
-        <Link className="link my-2" to="/Lunch">
-          Lunch
-        </Link>
-        <Link className="link my-2" to="/Dinner">
-          Dinner
-        </Link>
+    <div className='container my-5'>
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        {meals.map((meal) => (
+          <Meal key={meal.id} meal={meal}></Meal>
+        ))}
       </div>
     </div>
   );
