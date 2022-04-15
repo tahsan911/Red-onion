@@ -20,6 +20,9 @@ const HeaderNavbar = () => {
             <Link className="link my-2" to="/Cart">
               <ShoppingCartOutlinedIcon></ShoppingCartOutlinedIcon>
             </Link>
+            <Link className="link my-2" to="/Home">
+              Home
+            </Link>
             <Link className="link my-2" to="/Login">
               Login
             </Link>

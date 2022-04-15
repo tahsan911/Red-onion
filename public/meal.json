@@ -2,7 +2,7 @@
     {   "category": "breakfast",
         "id": "1",
         "img": "./mealImg/breakfast/breakfast1.png",
-        "Name": "Bagel and Cream Cheese",
+        "name": "Bagel and Cream Cheese",
         "p": "How we dream about our future",
         "price": "6.99"
 
@@ -10,7 +10,7 @@
     {   "category": "breakfast",
         "id": "2",
         "img": "./mealImg/breakfast/breakfast2.png",
-        "Name": "Breakfast sandwich",
+        "name": "Breakfast sandwich",
         "p": "How we dream about our future",
         "price": "9.99"
 
@@ -18,7 +18,7 @@
     {   "category": "breakfast",
         "id": "3",
         "img": "./mealImg/breakfast/breakfast3.png",
-        "Name": "Baked Chiken",
+        "name": "Baked Chiken",
         "p": "How we dream about our future",
         "price": "10.99"
 
@@ -26,7 +26,7 @@
     {   "category": "breakfast",
         "id": "4",
         "img": "./mealImg/breakfast/breakfast4.png",
-        "Name": "Eggs Benedict",
+        "name": "Eggs Benedict",
         "p": "How we dream about our future",
         "price": "8.99"
 
@@ -34,7 +34,7 @@
     {   "category": "breakfast", 
         "id": "5",
         "img": "./mealImg/breakfast/breakfast5.png",
-        "Name": "Toast Croissant Fried egg",
+        "name": "Toast Croissant Fried egg",
         "p": "How we dream about our future",
         "price": "19.99"
 
@@ -42,7 +42,7 @@
     {   "category": "breakfast",
         "id": "6",
         "img": "./mealImg/breakfast/breakfast6.png",
-        "Name": "Full Breakfast Fried Egg Toast Brunch",
+        "name": "Full Breakfast Fried Egg Toast Brunch",
         "p": "How we dream about our future",
         "price": "3.99"
 
