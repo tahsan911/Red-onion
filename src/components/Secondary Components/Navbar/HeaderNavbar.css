@@ -1,0 +1,17 @@
+.logo{
+    width: 150px;
+}
+.link{
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1.2px;
+}
+.link:focus{
+    border-bottom: 3px solid red;
+    color: red;
+    padding: 5px 20px;
+}
