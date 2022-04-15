@@ -6,7 +6,7 @@
     width: 100%;
 }
 .input{
-    width: 30%;
+    width: 20%;
 }
 input[type="text"]{
     background-color: #fff;
@@ -14,7 +14,7 @@ input[type="text"]{
     width: 20%;
     height: 6.4vh;
     text-align: center;
-    padding: 0 25px;
+    padding: 0 20px;
     border: none;
     border-radius: 25px 0 0 25px;
     outline: none;
@@ -26,4 +26,7 @@ input[type="text"]{
     background: red;
     color: white;
     padding: 0 20px;
+}
+.input-width{
+    width: 73%!important;
 }

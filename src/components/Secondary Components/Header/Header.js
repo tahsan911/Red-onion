@@ -8,12 +8,12 @@ const Header = () => {
         <h1 className="text-center pb-3 overflow-hidden">
           Best food is waiting for your belly
         </h1>
-        <div>
+        <div className="text-center">
           <input
             type="text"
             name="Search For Food"
             placeholder="Search Food Items"
-            className="w-75"
+            className="input-width"
           />
           <input type="submit" value="Search" />
         </div>
